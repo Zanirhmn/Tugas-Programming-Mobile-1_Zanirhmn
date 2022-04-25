@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:hint="Nomor Induk Kependudukan"
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/nik"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:hint="Nama"
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/Nama"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:hint="Tempat Lahir"
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/Tempat_Lahir"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:hint="Tanggal Lahir"
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/Tanggal_Lahir"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:hint="Alamat"
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/Alamat"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:hint="Jenis Kelamin"
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/Jenis_Kelamin"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:hint="Pekerjaan"
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/Pekerjaan"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:hint="Status Perkawinan"
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/Status_Perkawinan"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah ke Second Activity"
+        android:id="@+id/buttonPindah"/>
+
+</LinearLayout>
